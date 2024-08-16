@@ -1,0 +1,6 @@
+5
+33/var/www/html/namaste-react/.dist1723798273323768836 1
+37/var/www/html/namaste-react/index.css1723643698238219603 0
+34/var/www/html/namaste-react/App.js1723798002126876699 0
+38/var/www/html/namaste-react/index.html1723643737439202845 0
+27/var/www/html/namaste-react1723798382392078930 1
