@@ -37,8 +37,7 @@ const {
   cuisines,
 } = resData?.data;
 
-console.log(resData.data);
-    return (
+      return (
         <div className="res-card" style= {{backgroundColor: "#f0f0f0" }}>
         <img 
             className="res-logo"
@@ -1884,7 +1883,7 @@ const Body = () => {
         <div className="Search">Search</div>
         <div className="res-conatainer">
           {
-            resList.map(restaurant => <RestaurantCard resData={restaurant} />)
+            resList.map(restaurant => <RestaurantCard key={restaurant.data.id} resData={restaurant} />)
 
           }
 
